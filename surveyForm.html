@@ -1,0 +1,38 @@
+<!DCOTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body id="main">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">A small form to collect user data.</p>
+        <form id="survey-form">
+            <label id="name-label">
+                Enter Name : 
+                <input type="text" id="name" placeholder="Name" required>
+            </label><br>
+            <label id="email-label">
+                Enter Email : 
+                <input type="email" id="email" placeholder="Email" required>
+            </label><br>
+            <label id="number-label">
+                Enter a number from 1-10 : 
+                <input type="number" id="number" min="1" max="10" placeholder="Number" required>
+            </label><br>
+            <select id="dropdown" name="sfdd">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+            </select><br>
+            <input type="radio" name="attribute" value="a">A
+            <input type="radio" name="attribute" value="b">B
+            <input type="radio" name="attribute" value="c">C<br>
+            <input type="checkbox" name="sfcb" value="a">A
+            <input type="checkbox" name="sfcb" value="b">B
+            <input type="checkbox" name="sfcb" value="c">C <br>
+            <textarea placeholder="Enter Comments"></textarea>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
